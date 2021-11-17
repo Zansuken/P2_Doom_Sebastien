@@ -22,8 +22,15 @@ header {
     box-shadow: 1px 1px 9px -4px #000000;
 }
 
+#top_header > a {
+    width: 65px;
+    height: 47px;
+    position: relative;
+}
+
 #logo {
-    max-width: 100px;
+    height: 100%;
+    object-fit: cover;
     margin-left: 20px;
     cursor: pointer;
 }
