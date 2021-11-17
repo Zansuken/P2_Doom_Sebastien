@@ -1,0 +1,97 @@
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Call with: font-family: 'Raleway', sans-serif; */
+
+/* Header */
+
+@import url(header.css);
+
+/* Search section */
+
+@import url(search-section.css);
+
+/* Filters */
+
+@import url(search-filters.css);
+
+/* Main */
+
+@import url(main-content/main.css);
+
+/* Activities */
+
+@import url(activities.css);
+
+/* Footer */
+
+@import url(footer.css);
+
+/* Responsives */
+
+@import url(768px-992px.css);
+
+/* Colors */
+
+:root {
+    --main-color: #0065FC;
+    --accent-color: #DEEBFF;
+    --background-color: #f2f2f2;
+}
+
+/* Global */
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 800;
+}
+  
+body {
+      font-family: 'Raleway', sans-serif;
+      top: 0;
+      margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#activities_section {
+    margin: 0 60px;
+}
+
+.icons {
+        width: 20px;
+}
+
+/* Information about selected city */
+
+#infos {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#infos_icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--background-color);
+}
+
+#infos img {
+    width: 11px;
+    height: 11px;
+    display: flex;
+    filter: invert(24%) sepia(64%) saturate(4324%) hue-rotate(211deg) brightness(101%) contrast(105%);
+}

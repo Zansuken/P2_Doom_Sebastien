@@ -1,0 +1,86 @@
+/* Most popular section */
+
+#most_popular {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: var(--background-color);
+    padding: 45px;
+}
+
+#most_popular header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+#most_popular header h1 {
+    margin: 0;
+}
+
+#most_popular header .icons {
+    width: 30px;
+    height: 30px;
+}
+
+#most_popular_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.popular_item {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 25px;
+    border: 5px solid white;
+    box-shadow: 1px 1px 15px -7px #000000;;
+    text-decoration: none;
+}
+
+.popular_item > img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.popular_item .descriptions {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 10px 10px 25px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    gap: 10px;
+}
+
+.popular_item .descriptions .stars {
+    margin: 0;
+}
+
+.popular_item h2, .popular_item span {
+    margin: 0;
+}
+
+.popular_item .descriptions span {
+    font-weight: 500;
+}
+
+.spacer {
+    flex: 1;
+}
