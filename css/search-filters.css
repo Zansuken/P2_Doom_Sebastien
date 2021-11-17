@@ -45,8 +45,6 @@
     background-color: var(--accent-color);
     border: 3px solid var(--accent-color);
     border-radius: 50%;
-    /* transform: translateX(-3px); */
-
 }
 
 #filters img {
