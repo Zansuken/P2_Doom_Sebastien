@@ -45,7 +45,7 @@
 }
 
 .result_item:hover, .popular_item:hover {
-    opacity: 0.5;
+    transform: scale(1.2);
     transition: ease-in 0.3s;
 }
 

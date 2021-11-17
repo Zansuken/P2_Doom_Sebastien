@@ -132,6 +132,11 @@
         transform: translateX(0);
         margin: 0;
         gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .activities_wrapper:last-of-type {
+        flex-direction: column;
     }
 
     #footer_flex {

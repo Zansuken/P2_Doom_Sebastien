@@ -39,7 +39,6 @@
 .first_part {
     height: 100%;
     width: 50%;
-    overflow: hidden;
     border-radius: 25px;
     box-shadow: 1px 1px 15px -7px #000000;
     justify-content: space-evenly;
@@ -74,6 +73,11 @@
     gap: 40px;
 }
 
+.activities_wrapper:last-of-type {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
 .activities_content img {
     height: 100%;
     width: 100%;
@@ -83,7 +87,7 @@
 }
 
 .activities_content:hover {
-    opacity: 0.5;
+    transform: scale(1.2);
     transition: ease-in 0.3s;
 }
 
@@ -105,7 +109,4 @@
         width: 100%;
     }
 
-    .second_part {
-        transform: translateX(20px);
-    }
 }
