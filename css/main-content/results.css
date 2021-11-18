@@ -28,7 +28,7 @@
 }
 
 .result_item {
-    max-width: 300px;
+    width: 300px;
     display: flex;
     position: relative;
     justify-content: center;
@@ -60,7 +60,7 @@
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
 }
 
 .result_item .descriptions span {
@@ -90,4 +90,5 @@
 
 #show_more:hover {
     color: var(--main-color);
+    text-decoration: underline;
 }

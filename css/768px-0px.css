@@ -82,6 +82,10 @@
         padding-left: 30px;
     }
 
+    .result_item {
+        width: 100%;
+    }
+
     #most_popular {
         padding: 0 0 40px 0;
         width: auto;

@@ -27,3 +27,7 @@ footer ul li {
     list-style: none;
     margin-bottom: 20px;
 }
+
+footer ul li:hover {
+    text-decoration: underline;
+}
