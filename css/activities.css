@@ -74,7 +74,7 @@
 }
 
 .activities_wrapper:last-of-type {
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -107,6 +107,10 @@
 
     .activities_wrapper {
         width: 100%;
+    }
+
+    .activities_wrapper:last-of-type {
+        flex-direction: row-reverse;
     }
 
 }
