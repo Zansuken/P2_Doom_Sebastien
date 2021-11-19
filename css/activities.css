@@ -87,7 +87,7 @@
 }
 
 .activities_content:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: ease-in 0.3s;
 }
 
