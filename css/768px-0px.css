@@ -25,7 +25,6 @@
         display: flex;
         justify-content: center;
         padding-bottom: 12px;
-        /* transform: translateY(-10px); */
     }
 
     nav a:hover {
@@ -84,6 +83,7 @@
 
     .result_item {
         width: 100%;
+        max-width: 100%;
     }
 
     #most_popular {
@@ -104,10 +104,6 @@
         gap: 20px;
     }
 
-    .result_item {
-        max-width: 100%;
-    }
-
     #show_more {
         margin-left: 30px;
     }
@@ -125,6 +121,10 @@
     .activities_content {
         width: auto;
         max-height: 200px;
+    }
+
+    .activities_content picture img {
+        height: 200px;
     }
     
     .first_part {

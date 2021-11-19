@@ -4,7 +4,6 @@
     border-radius: 25px;
     background-color: var(--background-color);
     padding: 45px;
-    /* display: flex; */
 }
 
 #results header {
@@ -49,7 +48,7 @@
     transition: ease-in 0.3s;
 }
 
-.result_item > img {
+.result_item picture > img {
     width: 100%;
     height: 150px;
     object-fit: cover;
@@ -87,4 +86,10 @@
 #show_more:hover {
     color: var(--main-color);
     text-decoration: underline;
+}
+
+@media (max-width: 924px) {
+    .result_item {
+        width: 100%;
+    }
 }

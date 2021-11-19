@@ -2,7 +2,6 @@
 
 #most_popular {
     width: 50%;
-    height: fit-content;
     display: flex;
     flex-direction: column;
     border-radius: 25px;
@@ -21,6 +20,7 @@
 
 #most_popular header h1 {
     margin: 0;
+    width: max-content;
 }
 
 #most_popular header .icons {
@@ -47,9 +47,16 @@
     text-decoration: none;
 }
 
-.popular_item > img {
+.popular_item picture {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.popular_item picture > img {
     width: 180px;
-    height: 180px;
+    height: 192px;
+    max-height: 100%;
     object-fit: cover;
     object-position: center;
     border-top-left-radius: 25px;
@@ -59,8 +66,6 @@
 }
 
 .popular_item .descriptions {
-    width: 100%;
-    max-width: 200px;
     padding: 10px 10px 10px 25px;
     display: flex;
     flex-direction: column;
@@ -73,6 +78,7 @@
 
 .popular_item .descriptions .stars {
     margin: 0;
+    width: max-content;
 }
 
 .popular_item h2, .popular_item span {
