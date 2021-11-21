@@ -37,6 +37,7 @@
     border: 5px solid white;
     box-shadow: 1px 1px 15px -7px #000000;
     text-decoration: none;
+    transition: ease 0.3s;
 }
 
 .result_item:visited, .popular_item:visited {
@@ -45,7 +46,6 @@
 
 .result_item:hover, .popular_item:hover {
     transform: scale(1.1);
-    transition: ease-in 0.3s;
 }
 
 .result_item picture > img {

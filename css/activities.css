@@ -26,6 +26,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     text-decoration: none;
+    transition: ease 0.3s;
 }
 
 .activities_content .descriptions {
