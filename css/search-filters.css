@@ -164,7 +164,7 @@ input:checked[type="checkbox"] {
     top: 0;
     left: 0;
     background: var(--accent-color);
-    background-image: url(images/icons/money-bill-wave-solid.svg);
+    background-image: url(../images/icons/money-bill-wave-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -180,7 +180,7 @@ input:checked[type="checkbox"] {
     top: 0;
     left: 0;
     background: var(--accent-color);
-    background-image: url(images/icons/child-solid.svg);
+    background-image: url(../images/icons/child-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -196,7 +196,7 @@ input:checked[type="checkbox"] {
     top: 0;
     left: 0;
     background: var(--accent-color);
-    background-image: url(images/icons/heart-solid.svg);
+    background-image: url(../images/icons/heart-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -212,7 +212,7 @@ input:checked[type="checkbox"] {
     top: 0;
     left: 0;
     background: var(--accent-color);
-    background-image: url(images/icons/dog-solid.svg);
+    background-image: url(../images/icons/dog-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -222,7 +222,7 @@ input:checked[type="checkbox"] {
 #checked1:checked[type="checkbox"]::before {
     left: calc(100% - 43px);
     background: white;
-    background-image: url(images/icons/money-bill-wave-solid.svg);
+    background-image: url(../images/icons/money-bill-wave-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -232,7 +232,7 @@ input:checked[type="checkbox"] {
 #checked2:checked[type="checkbox"]::before {
     left: calc(100% - 43px);
     background: white;
-    background-image: url(images/icons/child-solid.svg);
+    background-image: url(../images/icons/child-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -242,7 +242,7 @@ input:checked[type="checkbox"] {
 #checked3:checked[type="checkbox"]::before  {
     left: calc(100% - 43px);
     background: white;
-    background-image: url(images/icons/heart-solid.svg);
+    background-image: url(../images/icons/heart-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
@@ -252,7 +252,7 @@ input:checked[type="checkbox"] {
 #checked4:checked[type="checkbox"]::before {
     left: calc(100% - 43px);
     background: white;
-    background-image: url(images/icons/dog-solid.svg);
+    background-image: url(../images/icons/dog-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
