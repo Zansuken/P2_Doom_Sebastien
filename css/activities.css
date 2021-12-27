@@ -58,11 +58,19 @@
 }
 
 .second_part .activities_content:first-child {
-    height: 50%;
+    height: 60%;
 }
 
 .second_part .activities_content:last-child {
-    height: 40%;
+    height: 35%;
+}
+
+#top_activity {
+    height: 47.5%;
+}
+
+#down_activity {
+    height: 47.5%;
 }
 
 .activities_wrapper {
